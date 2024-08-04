@@ -13,7 +13,7 @@ const pool = new Pool({
 const app = express();
 
 app.set('views',__dirname);
-app.set('view engine ','ejs');
+app.set('view engine','ejs');
 
 
 app.use(session({secret:'cats',resave:false,saveUninitialized:false}));
